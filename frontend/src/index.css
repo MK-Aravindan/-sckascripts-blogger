@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #9d9b97b7;
+}
+.navbar h1 {
+  color: #1f8eed;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  background-color: #1f8eed;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  color: black;
+  background-color: #ffffff;
+}
+.content {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  color: rgba(0, 0, 0, 0.174);
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  color: #1f8eed;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.284);
+}
+.blog-preview:hover h2 {
+  color: #1f8eed;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #4c4b4a;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 h4 {
+  font-size: 20px;
+  color: #4c4b4a;
+  margin-bottom: 10px;
+}
+
+.blog-details h4{
+  margin-bottom: 15px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details .delete {
+  color: white;
+  background-color: #1f8eed;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details .edit {
+  color: white;
+  background-color: #1f8eed;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button:hover {
+  color: black;
+  background-color: white;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 25px;
+  color: #4c4b4a;
+  margin-bottom: 30px;
+}
+.create input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create textarea {
+  width: 100%;
+  height: 200px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #1f8eed;
+  color: white;
+  border: 0;
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create button:hover {
+  background: white;
+  color: #1f8eed;
+}
